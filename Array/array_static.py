@@ -63,7 +63,11 @@ for i in range(ln):
         end = mid - 1
     elif start >= end:
         print(f'item {ele} not found ')
-        break    
+        break
+
+else:
+    print('loop completed!')
+
 
 
 
