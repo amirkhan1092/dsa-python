@@ -21,6 +21,7 @@ class point:
 
 p = point(3, 5)
 
+
 # print(p.x)  # 3
 # print(p.y)  # 5
 
