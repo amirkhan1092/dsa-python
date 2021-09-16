@@ -5,7 +5,9 @@ input roll number and update marks
 """
 
 # create a file with roll number, name and marks 
+
 with open("binary_filemarks.txt", 'wb' ) as f:
+    flag = 'Y'
     while flag != 'N' or flag != 'n':
         roll_n = int(input("Enter the roll number "))
         name = input("Enter the name ")
