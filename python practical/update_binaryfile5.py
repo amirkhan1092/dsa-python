@@ -5,7 +5,7 @@ input roll number and update marks
 """
 
 # create a file with roll number, name and marks 
-with open("E:\\Python39\\dsa-python\\dsa-python\\dsa-python\\python practical\\binary_filemarks.txt", 'wb' ) as f:
+with open("binary_filemarks.txt", 'wb' ) as f:
     while flag != 'N' or flag != 'n':
         roll_n = int(input("Enter the roll number "))
         name = input("Enter the name ")
@@ -16,7 +16,7 @@ with open("E:\\Python39\\dsa-python\\dsa-python\\dsa-python\\python practical\\b
 
 
 # input roll number and update the marks 
-with open("E:\\Python39\\dsa-python\\dsa-python\\dsa-python\\python practical\\binary_filemarks.txt", 'rb+' ) as f:
+with open("binary_filemarks.txt", 'rb+' ) as f:
     data = f.readlines()
     roll_n = input("Enter the roll number to update the marks ")
     marks = input("Marks: ")
