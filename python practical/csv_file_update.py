@@ -24,5 +24,10 @@ import pandas as pd
 user_id = input("Enter the user-id for password: ")
 
 df = pd.read_csv("e:\\Python39\\dsa-python\\dsa-python\\dsa-python\\python practical\\password.csv")
-print(df)
-# print(f"The password at user-id: {user_id} is {df[user_id]}")
+# print(df)
+
+for i in range(len(df['user-id'])):
+    if df.iloc[i]['user-id'] == user_id:
+        password = df.iloc[i]['password']
+
+print(f"The password at user-id: {user_id} is {password}")
