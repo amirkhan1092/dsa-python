@@ -19,5 +19,3 @@ if i == len(lst):
     print(True)
 else:
     print(False)
-
-
