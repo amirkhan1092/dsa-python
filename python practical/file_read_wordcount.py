@@ -43,6 +43,7 @@ while 1:
     print(data)
     count += 1
     if data == '':
+        
         break
 
 print(data)
