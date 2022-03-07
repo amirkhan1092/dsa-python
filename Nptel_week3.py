@@ -17,8 +17,10 @@ def expanding(l:list)->bool:
         ele1 = l[0]
         ele2 = l[1]
         diff = abs(ele1 - ele2)
+        print(diff)
         return diff < (abs(l[1] - l[2])) and expanding(l[1:])     
+input()
+input_list = list(map(int, input().split()))  # [1, 3, 7, 2, -6]
 
-input_list = [1, 3, 7, 2, -6]
 out = expanding(input_list)
 print(f"{out}")
